@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="500"
+        x:Class="LoanApp.Avalonia.MainWindow"
+        MinWidth="300" MinHeight="490"
+        Title="LoanApp.Avalonia">
+    <StackPanel Margin="10">
+        <TextBlock Text="Age:"/>
+        <TextBox Name="AgeTextBox" Margin="0,5,0,10"/>
+        <TextBlock Text="Income:"/>
+        <TextBox Name="IncomeTextBox" Margin="0,5,0,10"/>
+        <TextBlock Text="Credit Score:"/>
+        <TextBox Name="ScoreTextBox" Margin="0,5,0,10"/>
+        <TextBlock Text="Amount:"/>
+        <TextBox Name="AmountTextBox" Margin="0,5,0,10"/>
+        <TextBlock Text="Rate:"/>
+        <TextBox Name="RateTextBox" Margin="0,5,0,10"/>
+        <TextBlock Text="Term:"/>
+        <TextBox Name="TermTextBox" Margin="0,5,0,10"/>
+        <Button Content="Submit" Click="SubmitButton_Click"/>
+        <TextBlock Text="Result:"/>
+        <TextBox Name="ResultTextBox" Margin="0,5,0,10" IsEnabled="false"/>
+    </StackPanel>
+</Window>
